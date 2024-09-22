@@ -13,3 +13,4 @@
   - import_tasks: tasks/nvim.yml
   - import_tasks: tasks/tmuxinator.yml
   - import_tasks: tasks/zsh.yml
+  - import_tasks: tasks/karabiner.yml
