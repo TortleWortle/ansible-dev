@@ -1,0 +1,2 @@
+- name: Install tmuxinator
+  shell: brew install tmuxinator

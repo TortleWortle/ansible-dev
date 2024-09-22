@@ -1,0 +1,10 @@
+- hosts: localhost
+  pre_tasks:
+  - name: Update brew
+    shell: brew update
+  tasks:
+  - include_tasks: tasks/fnm.yml
+  - include_tasks: tasks/nvim.yml
+  - include_tasks: tasks/stow.yml
+  - include_tasks: tasks/tmuxinator.yml
+  - include_tasks: tasks/zsh.yml

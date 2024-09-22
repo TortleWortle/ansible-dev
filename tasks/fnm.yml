@@ -1,0 +1,6 @@
+- name: install fnm
+  shell: brew install fnm
+- name: install node 18
+  shell: fnm install 18
+- name: install node 20
+  shell: fnm install 20
