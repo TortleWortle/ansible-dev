@@ -7,4 +7,4 @@
 brew install ansible
 
 # Pull ansible
-ansible-pull -U https://github.com/TortleWortle/ansible-dev
+ansible-pull -U https://github.com/TortleWortle/ansible-dev.git macos.yml
