@@ -3,8 +3,9 @@
   - name: Update brew
     shell: brew update
   tasks:
-  - include_tasks: tasks/fnm.yml
-  - include_tasks: tasks/nvim.yml
-  - include_tasks: tasks/stow.yml
-  - include_tasks: tasks/tmuxinator.yml
-  - include_tasks: tasks/zsh.yml
+  - import_tasks: tasks/ssh.yml
+  - import_tasks: tasks/fnm.yml
+  - import_tasks: tasks/nvim.yml
+  - import_tasks: tasks/stow.yml
+  - import_tasks: tasks/tmuxinator.yml
+  - import_tasks: tasks/zsh.yml

@@ -1,6 +1,15 @@
 - name: install fnm
   shell: brew install fnm
+  tags:
+  - install
+  - node
 - name: install node 18
   shell: fnm install 18
+  tags:
+  - install
+  - node
 - name: install node 20
   shell: fnm install 20
+  tags:
+  - install
+  - node

@@ -1,0 +1,5 @@
+- name: do the ssh
+  shell: say did ssh
+  tags:
+  - install
+  - ssh

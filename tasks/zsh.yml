@@ -2,3 +2,6 @@
   shell: brew install zsh
 - name: install oh-my-zsh
   shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  tags:
+  - install
+  - zsh

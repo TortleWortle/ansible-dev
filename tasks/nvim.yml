@@ -1,2 +1,5 @@
 - name: install nvim
   shell: brew install nvim
+  tags:
+  - install
+  - nvim
