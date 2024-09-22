@@ -1,5 +1,0 @@
-- name: Install stow
-  shell: brew install stow
-  tags:
-  - install
-  - dotfiles

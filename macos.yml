@@ -1,11 +1,15 @@
 - hosts: localhost
+  vars:
+    source_key: "./.ssh/id_rsa"
+    dest_key: "{{ lookup('env', 'HOME') }}/.ssh/id_rsa"
+    # personal: "{{ lookup('env', 'HOME') }}/personal"
   pre_tasks:
   - name: Update brew
     shell: brew update
   tasks:
   - import_tasks: tasks/ssh.yml
+  - import_tasks: tasks/dotfiles.yml
   - import_tasks: tasks/fnm.yml
   - import_tasks: tasks/nvim.yml
-  - import_tasks: tasks/stow.yml
   - import_tasks: tasks/tmuxinator.yml
   - import_tasks: tasks/zsh.yml
