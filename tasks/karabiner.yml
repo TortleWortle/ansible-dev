@@ -1,4 +1,5 @@
 - name: Install karabiner
+  shell: brew install --cask karabiner-elements
   tags:
   - install
   - karabiner

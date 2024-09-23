@@ -1,0 +1,5 @@
+- name: Install reactotron
+  shell: brew install --cask reactotron
+  tags:
+  - install
+  - reactotron

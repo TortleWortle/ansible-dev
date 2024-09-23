@@ -1,0 +1,20 @@
+- name: install Yabai
+  shell: brew install koekeishiya/formulae/yabai
+  tags:
+  - install
+  - yabai
+- name: install Skhd
+  shell: brew install koekeishiya/formulae/skhd
+  tags:
+  - install
+  - yabai
+- name: start yabai
+  shell: yabai --start-service
+  tags:
+  - install
+  - yabai
+- name: start skhd
+  shell: skhd --start-service
+  tags:
+  - install
+  - yabai

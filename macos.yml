@@ -14,3 +14,6 @@
   - import_tasks: tasks/tmuxinator.yml
   - import_tasks: tasks/zsh.yml
   - import_tasks: tasks/karabiner.yml
+  - import_tasks: tasks/yabai.yml
+  - import_tasks: tasks/tailscale.yml
+  - import_tasks: tasks/reactotron.yml

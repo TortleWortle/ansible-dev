@@ -1,0 +1,5 @@
+- name: Install tailscale
+  shell: brew install --cask tailscale
+  tags:
+  - install
+  - tailscale
