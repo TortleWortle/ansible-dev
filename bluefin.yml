@@ -9,7 +9,5 @@
   tasks:
   - import_tasks: tasks/ssh.yml
   - import_tasks: tasks/dotfiles-bluefin.yml
-  - import_tasks: tasks/fnm.yml
   - import_tasks: tasks/nvim.yml
   - import_tasks: tasks/tmuxinator.yml
-  - import_tasks: tasks/zsh.yml
