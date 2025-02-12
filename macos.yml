@@ -7,10 +7,10 @@
   - name: Update brew
     shell: brew update
   tasks:
+  - import_tasks: tasks/ssh.yml
   - import_tasks: tasks/dotfiles.yml
   - import_tasks: tasks/ghostty.yml
   - import_tasks: tasks/karabiner.yml
   - import_tasks: tasks/nvim.yml
-  - import_tasks: tasks/ssh.yml
   - import_tasks: tasks/tailscale.yml
   - import_tasks: tasks/zsh.yml
