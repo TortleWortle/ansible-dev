@@ -1,0 +1,5 @@
+- name: install Ghostty
+  shell: brew install --cask ghostty
+  tags:
+  - install
+  - ghostty

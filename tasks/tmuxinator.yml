@@ -1,4 +1,0 @@
-- name: Install tmuxinator
-  shell: brew install tmuxinator
-  tags:
-  - install

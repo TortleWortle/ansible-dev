@@ -5,3 +5,23 @@
   tags:
   - install
   - zsh
+- name: install atuin
+  shell: brew install atuin
+  tags:
+  - install
+- name: install zoxide
+  shell: brew install zoxide
+  tags:
+  - install
+- name: install asdf
+  shell: brew install asdf
+  tags:
+  - install
+- name: install tmux
+  shell: brew install tmux
+  tags:
+  - install
+- name: install tmux-sessionizer
+  shell: brew install tmux-sessionizer
+  tags:
+  - install
